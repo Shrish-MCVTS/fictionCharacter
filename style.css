@@ -12,15 +12,38 @@ h1{
     text-align: center;
     font-size: 50px;
     font-family: PeppaStyle;
+    color:#ff33e9;
+}
+a{
+    top: 200px;
+    right: -900px;
+}
+.text{
+    position: absolute;
+    top: 370px;
+    right: 800px;
+}
+.text1{
+    position: absolute;
+    top: 480px;
+    right: 800px;
+    font-size: 20px;
+    color: #ff33e9;
+    font-family: PeppaStyle;
 }
 .peppa{
-    position: relative;
-    top: 500px;
+    top: 200px;
     right: -900px;
 }
-.bt{
-    
-    position: relative;
-    top:700px;
-    right: -900px;
+.peppaHouse{
+    top: 950px;
+    right: -600px;
+   
+}
+.text2{
+    top: 970px;
+    right: -850px;
+    font-size: 50px;
+    color: #ff33e9;
+    font-family: PeppaStyle;
 }
