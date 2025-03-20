@@ -26,12 +26,12 @@ a{
 }
 .text{
     position: absolute;
-    top: 410px;
+    top: 50%;
     right: 40%;
 }
 .text1{
     position: absolute;
-    top: 520px;
+    top: 60%;
     right: 45%;
     font-size: 20px;
     color: #ff33e9;
@@ -39,18 +39,18 @@ a{
 }
 .peppa{
     position: absolute;
-    top: 590px;
+    top: 65%;
     right: 35%;
 }
 .peppaHouse{
     position: absolute;
-    top: 1500px;
+    top: 200%;
     right: 25%;
    
 }
 .text2{
     position: absolute;
-    top: 1450px;
+    top: 200%;
     right: 40%;
     font-size: 50px;
     color: #ff33e9;
@@ -59,7 +59,7 @@ a{
 /*Positioning the video*/
 .video{
     position: absolute;
-    top: 3400px;
+    top: 340%;
     right: 370px;
 }
 /*Display property: I used to maek the bookmarks on my page look better and put them on the same line*/
