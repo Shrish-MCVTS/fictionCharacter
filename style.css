@@ -1,49 +1,89 @@
+/*Creating the font*/
 @font-face{
     font-family: PeppaStyle;
     src: url("Budgeta Script.otf");
 }
+/*Placeing a fixed background so thier is no repeat*/
 body{
     background-image: url(PeppaBackground.avif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
 }
+/*Alligning the title*/
 h1{
     text-align: center;
     font-size: 50px;
     font-family: PeppaStyle;
     color:#ff33e9;
 }
+/*Positioning the links, titles, paragraphs, and images*/
 a{
     top: 200px;
     right: -900px;
+    text-decoration: #3369ff;
+    text-decoration: none;
 }
 .text{
     position: absolute;
-    top: 370px;
+    top: 410px;
     right: 800px;
 }
 .text1{
     position: absolute;
-    top: 480px;
-    right: 800px;
+    top: 520px;
+    right: 880px;
     font-size: 20px;
     color: #ff33e9;
     font-family: PeppaStyle;
 }
 .peppa{
-    top: 200px;
-    right: -900px;
+    position: absolute;
+    top: 590px;
+    right: 700px;
 }
 .peppaHouse{
-    top: 950px;
-    right: -600px;
+    position: absolute;
+    top: 1500px;
+    right: 600px;
    
 }
 .text2{
-    top: 970px;
-    right: -850px;
+    position: absolute;
+    top: 1450px;
+    right: 800px;
     font-size: 50px;
     color: #ff33e9;
     font-family: PeppaStyle;
+}
+/*Positioning the video*/
+.video{
+    position: absolute;
+    top: 3400px;
+    right: 370px;
+}
+/*Display property: I used to maek the bookmarks on my page look better and put them on the same line*/
+.bookmark{
+    width: 50px;
+    height: 50px;
+    background-color: #ff3333;
+    margin: 5px;
+    border-style: dashed;
+    display: inline-block;
+}
+.bookmark2{
+    width: 60px;
+    height: 50px;
+    background-color: #ff3333;
+    margin: 5px;
+    border-style: dashed;
+    display: inline-block;
+}
+.bookmark3{
+    width: 60px;
+    height: 50px;
+    background-color: #ff3333;
+    margin: 5px;
+    border-style: dashed;
+    display:block;
 }
