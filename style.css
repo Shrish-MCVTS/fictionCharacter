@@ -27,12 +27,12 @@ a{
 .text{
     position: absolute;
     top: 410px;
-    right: 800px;
+    right: 40%;
 }
 .text1{
     position: absolute;
     top: 520px;
-    right: 880px;
+    right: 45%;
     font-size: 20px;
     color: #ff33e9;
     font-family: PeppaStyle;
@@ -40,18 +40,18 @@ a{
 .peppa{
     position: absolute;
     top: 590px;
-    right: 700px;
+    right: 35%;
 }
 .peppaHouse{
     position: absolute;
     top: 1500px;
-    right: 600px;
+    right: 25%;
    
 }
 .text2{
     position: absolute;
     top: 1450px;
-    right: 800px;
+    right: 40%;
     font-size: 50px;
     color: #ff33e9;
     font-family: PeppaStyle;
